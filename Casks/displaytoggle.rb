@@ -11,6 +11,12 @@ cask "displaytoggle" do
 
   app "DisplayToggle.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-dr", "com.apple.quarantine", "#{appdir}/DisplayToggle.app"],
+      must_succeed: false
+  end
+
   zap trash: [
     "~/Library/Preferences/com.displaytoggle.DisplayToggleApp.plist",
   ]
