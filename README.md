@@ -1,6 +1,12 @@
 # jrussellsmyth/tap
-A Tap that includes things missing from core Homebrew Taps.
-Primarily maintained for my dotfiles bootstrap
+**A [Homebrew](https://brew.sh/) [Tap](https://docs.brew.sh/Taps)**
+
+Includes Mac applications created by me:
+
+- [Display Toggle](https://github.com/jrussellsmyth/displaytoggle) - a status bar tool to quickly toggle/switch which monitor is the main display.
+
+A collection of Homebrew installers for various tools and applications for which they did not exist, primarily music creation tools.
+
 
 # Use
 ```bash
