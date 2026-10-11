@@ -1,6 +1,6 @@
 cask "displaytoggle" do
-  version "1.0.0"
-  sha256 "3ad8b8dd15df64d6b0bfd3f1eb59dfa60a59fd294e989e38a9188abded9ef8a8"
+  version "1.0.1"
+  sha256 "2e5307ea7ad15d751de710f2b18555d282ab39e52520361ccc668c67028b6cfe"
 
   url "https://github.com/jrussellsmyth/displaytoggle/releases/download/v#{version}/DisplayToggle.dmg"
   name "DisplayToggle"
